@@ -1,0 +1,31 @@
+{
+  "name": "debtors-checker",
+  "version": "1.0.0",
+  "description": "A discord bot integration with Advanced Roleplay FBI debtors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/advancedroleplay/debtors-checker.git"
+  },
+  "author": "Victor Ferraresi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/advancedroleplay/debtors-checker/issues"
+  },
+  "homepage": "https://github.com/advancedroleplay/debtors-checker#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "easy-table": "^1.1.1",
+    "rxjs": "^6.5.1",
+    "sync-request": "^6.1.0",
+    "winston": "^2.3.9"
+  },
+  "devDependencies": {
+    "@types/easy-table": "0.0.32",
+    "@types/node": "^11.13.8",
+    "@types/winston": "^2.3.9"
+  }
+}
